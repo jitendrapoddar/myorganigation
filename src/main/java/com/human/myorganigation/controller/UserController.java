@@ -19,7 +19,7 @@ public class UserController {
 	@GetMapping(path="/age")
 	public int getAge() {
 		
-		return 10;
+		return 10+30;
 	}
 	
 	@GetMapping(path = "message-bean")
