@@ -13,13 +13,13 @@ public class UserController {
 	@RequestMapping(method = RequestMethod.GET, path = "/message")
 	public String getMessage() {
 		
-		return "Hello there";
+		return "Hello there, buddy";
 	}
 	
 	@GetMapping(path="/age")
 	public int getAge() {
 		
-		return 10+30;
+		return 10+40;
 	}
 	
 	@GetMapping(path = "message-bean")
