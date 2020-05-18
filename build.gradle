@@ -16,6 +16,8 @@ repositories {
 }
 
 dependencies {
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-gradle-plugin
+	compile group: 'org.springframework.boot', name: 'spring-boot-gradle-plugin', version: '2.3.0.RELEASE'
 	// https://mvnrepository.com/artifact/org.apache.commons/commons-compress
 	compile group: 'org.apache.commons', name: 'commons-compress', version: '1.18'	
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
